@@ -1,8 +1,10 @@
 let primeiroValor = 15;
 let segundoValor = 52;
-let terceiroValor = 100 
+let terceiroValor = 100; 
+let valorFinal;
 function calcularValor (valor1, valor2, valor3){
     var calcularValor = primeiroValor + segundoValor +terceiroValor;
-    return calcularValor;
+    valorFinal = calcularValor
+    return valorFinal;
 }
-console.log("A soma dos valores é de: " + calcularValor(primeiroValor, segundoValor, terceiroValor));
+console.log("A soma dos valores é de: " + calcularValor(valorFinal));
