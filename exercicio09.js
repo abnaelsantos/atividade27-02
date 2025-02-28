@@ -1,5 +1,5 @@
 let valorProduto = 1000.00;
-let desconto = 10; // Valor do desconto é de 10%
+let desconto = 10; // Valor em porcentagem
 let valorPago;
 
 function valorFinal(){
