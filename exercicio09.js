@@ -3,7 +3,7 @@ let desconto = 10; // Valor do desconto é de 10%
 let valorPago;
 
 function valorFinal(){
-    var valorFinal = (desconto / 100) * valorProduto;
+    var valorFinal = valorProduto - valorProduto * (desconto / 100) ;
     valorPago = valorFinal;
     return valorPago;
 }
