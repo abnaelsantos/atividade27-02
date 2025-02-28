@@ -1,4 +1,4 @@
-var nome = "Abnael";
+var nome ="Abnael"
 let distanciaPercorrida = 100; // valor em km
 let tempoGasto = 10; // valor em minutos
 let velocidadeMedia;
@@ -9,4 +9,4 @@ function calcularDistancia(carro) {
     return velocidadeMedia;
 }
 
-console.log(" A velociade do motorista é de:", calcularDistancia(velocidadeMedia),"km/k");
+console.log(" A velociade do motorista",nome, "é de:", calcularDistancia(velocidadeMedia),"km/h");
