@@ -5,7 +5,7 @@ let valorReceber;
 function calcularValorreceber(){
     var calcularValorreceber = valorPremio / quantidadePessoas;
     valorReceber = calcularValorreceber;
-    return valorreceber;
+    return valorReceber;
 }
 
 console.log("Cada pessoa irá receber o valor de:", calcularValorreceber(valorReceber)," reias");
