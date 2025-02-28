@@ -1,11 +1,11 @@
 let valorPremio = 5000;
 let quantidadePessoas = 5;
-let valorreceber;
+let valorReceber;
 
 function calcularValorreceber(){
     var calcularValorreceber = valorPremio / quantidadePessoas;
-    var valorreceber = calcularValorreceber;
+    valorReceber = calcularValorreceber;
     return valorreceber;
 }
 
-console.log("Cada pessoa irá receber o valor de:", calcularValorreceber(valorreceber)," reias");
+console.log("Cada pessoa irá receber o valor de:", calcularValorreceber(valorReceber)," reias");
